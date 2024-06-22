@@ -33,6 +33,3 @@ Projekt służy do analizy danych zawodników UEFA EURO 2024. Program wczytuje d
 ## Obsługa wyjątków
 
 Program zawiera mechanizmy obsługi wyjątków, które zapewniają nieprzerwaną egzekucję, nawet w przypadku błędów takich jak brak pliku czy błędne dane.# PJATK_EDU_-PYTHON
-    ```
-    git remote set-url origin https://<your_username>:<your_token>@github.com/<your_username>/<your_repo>.git
-    ```
