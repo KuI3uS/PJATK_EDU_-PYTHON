@@ -32,4 +32,5 @@ Projekt służy do analizy danych zawodników UEFA EURO 2024. Program wczytuje d
 
 ## Obsługa wyjątków
 
-Program zawiera mechanizmy obsługi wyjątków, które zapewniają nieprzerwaną egzekucję, nawet w przypadku błędów takich jak brak pliku czy błędne dane.# PJATK_EDU_-PYTHON
+- Program zawiera mechanizmy obsługi wyjątków, które zapewniają nieprzerwaną egzekucję, nawet w przypadku błędów takich jak brak pliku czy błędne dane.# PJATK_EDU_-PYTHON
+- Każda klasa obsługuje potencjalne wyjątki, które mogą być wywołane przez użytkownika, 

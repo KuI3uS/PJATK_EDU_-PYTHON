@@ -33,8 +33,15 @@ class DataManipulator:
         self.data = data
 
     def manipulate_data(self):
-        self.data['Age'] = self.data['Age'].astype(int)
-        filtered_data = self.data[self.data['Age'] > 30]
-        sorted_data = filtered_data.sort_values(by='Goals', ascending=False)
-        return sorted_data
+        try:
+            self.data['Age'] = self.data['Age'].astype(int)
+            filtered_data = self.data[self.data['Age'] > 30]
+            sorted_data = filtered_data.sort_values(by='Goals', ascending=False)
+            return sorted_data
+        except KeyError as e:
+            print(f"Błąd: brak kolumny {e} w danych.")
+            raise
+        except Exception as e:
+            print(f"Wystąpił błąd podczas manipulacji danymi: {e}")
+            raise
 ##Manipulacja danymi: Używamy pandas do konwersji typów danych (metoda astype), filtrowania danych
